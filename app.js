@@ -18,7 +18,7 @@ mongoose.connect(MONGODB_CONNECTION, {
 const db = mongoose.connection;
 /*  attach a function to the event 'error' in the connection
     whenever there is an error it will print in the console
-    this could also be wrote like:
+    this could also be:
 
     db.on('error', function(error) {
         console.log(error);
