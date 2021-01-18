@@ -6,7 +6,7 @@ const PORT = 3030;
 // MongoDB connection string
 // in this case is a local instance of mongoDB with no security
 // replace with your connection to your mongoDB here
-const MONGODB_CONNECTION = 'mongodb://localhost:27017/foo';
+const MONGODB_CONNECTION = 'mongodb+srv://todoapi:mOI60sJ5B2GYAXP8@cluster0.kib8f.mongodb.net/foo?retryWrites=true&w=majority';
 
 // attemps to connect to the database
 mongoose.connect(MONGODB_CONNECTION, {
